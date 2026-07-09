@@ -1,4 +1,8 @@
 .menu-fundo {
+  background: #052451;
+}
+
+.menu-sobreposicao {
   background-color: white;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   border-radius: 0px 0px 50px 50px;

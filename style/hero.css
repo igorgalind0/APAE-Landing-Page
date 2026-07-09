@@ -1,0 +1,90 @@
+.hero-bg {
+  background: #052451;
+  padding: 100px 0;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.hero h1 {
+  color: #FAB218;
+  font-family: agbook;
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-top: 20px;
+  color: white;
+  text-align: justify;
+}
+
+.hero .div-botoes {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.ajudar {
+  background: #FAB218;
+  padding: 15px 30px;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.historia {
+  color: #FAB218;
+  font-weight: bold;
+  font-size: 1.25rem;
+  padding: 15px 30px;
+  border: 3px solid #FAB218;
+  border-radius: 12px;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.historia::after {
+  content: "";
+  width: 36px;
+  height: 36px;
+
+  background-color: #FAB218;
+  background-image: url("../imgs/icons/seta.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 18px;
+
+  border-radius: 50%;
+
+  flex-shrink: 0;
+}
+
+.ajudar,
+.historia {
+  transition:
+    transform .3s ease,
+    box-shadow .3s ease,
+    filter .3s ease;
+}
+
+.ajudar:hover,
+.historia:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, .15);
+  filter: brightness(1.03);
+}
+
+.ajudar:active,
+.historia:active {
+  transform: translateY(-1px) scale(.98);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .12);
+}
