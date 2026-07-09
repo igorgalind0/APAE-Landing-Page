@@ -1,0 +1,40 @@
+.menu-fundo {
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 0px 0px 50px 50px;
+}
+
+.menu-nav {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-list {
+  display: flex;
+  gap: 30px;
+}
+
+.menu-list a {
+  font-size: 1.25rem;
+  color: #1E1E1E;
+}
+
+.menu-list .button-menu {
+  background-color: #052451;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 12px;
+}
+
+.menu-list a:hover {
+  transition: .2s;
+  color: #FAB218;
+}
+
+.menu-list .button-menu:hover {
+  background-color: #FAB218;
+  transition: .2s;
+  color: white;
+}
