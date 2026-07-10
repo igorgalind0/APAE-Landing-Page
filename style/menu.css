@@ -1,5 +1,10 @@
 .menu-fundo {
-  background: #052451;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: transparent;
 }
 
 .menu-sobreposicao {
@@ -9,7 +14,7 @@
 }
 
 .menu-nav {
-  padding: 40px 0;
+  padding: 20px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;

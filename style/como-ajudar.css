@@ -1,0 +1,66 @@
+.como-ajudar {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.como-ajudar h1 {
+  font-size: 3rem;
+  color: var(--cor-amarelo);
+  font-weight: 500;
+  font-family: agbook;
+}
+
+.como-ajudar div > p {
+  margin-top: 20px;
+  font-size: 1.25rem;
+}
+
+.como-ajudar .ajudar {
+  background: var(--cor-azul);
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.como-ajudar .ajudar:hover {
+  background: var(--cor-amarelo);
+  transition: .2s;
+}
+
+.como-ajudar .lista-ajudar li {
+  background: #F9F9F9;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  height: 100px;
+  margin-bottom: 20px;
+  padding: 20px 20px 20px 45px;
+
+  border-radius: 12px;
+  position: relative;
+}
+
+.como-ajudar .lista-ajudar li div {
+  position: absolute;
+  left: -25px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 50px;
+  height: 50px;
+  background: var(--cor-azul);
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.como-ajudar .lista-ajudar li p {
+  font-size: 1.25rem;
+}

@@ -1,3 +1,7 @@
 @import './style/global.css';
+@import './style/variaveis.css';
 @import './style/menu.css';
 @import './style/hero.css';
+@import './style/destaques.css';
+@import './style/sobre.css';
+@import './style/como-ajudar.css';
