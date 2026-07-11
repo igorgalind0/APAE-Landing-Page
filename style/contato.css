@@ -1,0 +1,55 @@
+.localizacao {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.localizacao h1 {
+  font-size: 3rem;
+  color: var(--cor-azul);
+  font-family: agbook;
+  font-weight: 500;
+}
+
+.localizacao ul {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.localizacao ul li {
+  display: flex;
+  background: #f9f9f9;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  align-items: center;
+  padding: 30px;
+  gap: 20px;
+  border-radius: 12px;
+  height: 120px;
+  cursor: pointer;
+}
+
+.localizacao ul li:hover {
+  transition: .2s;
+  transform: translateY(-4px) scale(1.02);
+}
+
+.localizacao ul li div {
+  width: 20px;
+}
+
+.localizacao ul li p {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.localizacao div > iframe {
+  width: 100%;
+  height: 600px;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+}
+

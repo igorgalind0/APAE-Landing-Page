@@ -1,0 +1,34 @@
+.footer-bg {
+  margin-top: 100px;
+  padding: 100px 0;
+  background: var(--cor-azul);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer h1 {
+  font-family: agbook;
+  color: var(--cor-amarelo);
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.footer ul {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer ul a {
+  color: white;
+  font-size: 1.25rem;
+}
+
+.footer ul a:hover {
+  transition: .2s;
+  color: var(--cor-amarelo);
+}

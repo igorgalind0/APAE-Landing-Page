@@ -1,0 +1,22 @@
+.impacto-fundo {
+  background: var(--cor-azul);
+  padding: 100px 0;
+  margin-top: 100px;
+}
+
+.impacto  ul{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.impacto ul h2 {
+  font-size: 4rem;
+  color: var(--cor-amarelo);
+}
+
+.impacto ul p {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}

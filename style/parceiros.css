@@ -1,0 +1,46 @@
+.parceiros {
+  margin-top: 100px;
+  overflow: hidden;
+}
+
+.parceiros h1 {
+  font-size: 3rem;
+  font-family: agbook;
+  font-weight: 500;
+  color: var(--cor-azul);
+}
+
+.parceiros-lista {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: max-content;
+  margin-top: 50px;
+
+  animation: parceiros 15s linear infinite;
+}
+
+.parceiros-lista li {
+  flex-shrink: 0;
+}
+
+.parceiros-lista li div {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .parceiros-lista:hover {
+  animation-play-state: paused;
+} */
+
+@keyframes parceiros {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(-50% - 15px));
+  }
+}
