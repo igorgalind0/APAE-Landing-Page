@@ -32,3 +32,31 @@
   transition: .2s;
   color: var(--cor-amarelo);
 }
+
+/* =========================
+   RESPONSIVIDADE
+========================= */
+
+@media (max-width: 1150px) {
+
+  .footer h1 {
+    font-size: 1.75rem;
+  }
+
+  .footer ul a {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 1050px) {
+
+  .footer {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+
+  .footer > div {
+    flex: 1 1 280px;
+  }
+}
+

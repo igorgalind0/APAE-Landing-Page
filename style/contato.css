@@ -53,3 +53,75 @@
   display: block;
 }
 
+/* =========================
+   RESPONSIVIDADE
+========================= */
+
+@media (max-width: 1150px) {
+
+  .localizacao h1 {
+    font-size: 2.5rem;
+  }
+
+  .localizacao ul li p {
+    font-size: 1.1rem;
+  }
+
+  .localizacao div > iframe {
+    height: 550px;
+  }
+}
+
+@media (max-width: 1050px) {
+
+  .localizacao {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .localizacao ul {
+    gap: 25px;
+    margin-top: 40px;
+  }
+
+  .localizacao div > iframe {
+    height: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .localizacao {
+    margin-top: 70px;
+    gap: 30px;
+  }
+
+  .localizacao h1 {
+    font-size: 2rem;
+  }
+
+  .localizacao ul {
+    margin-top: 30px;
+    gap: 20px;
+  }
+
+  .localizacao ul li {
+    height: auto;
+    min-height: 90px;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .localizacao ul li div {
+    width: 18px;
+    flex-shrink: 0;
+  }
+
+  .localizacao ul li p {
+    font-size: 1rem;
+  }
+
+  .localizacao div > iframe {
+    height: 350px;
+  }
+}

@@ -40,3 +40,65 @@
   margin-top: 20px;
   color: #052451;
 }
+
+/* =========================
+   RESPONSIVIDADE
+========================= */
+
+@media (max-width: 1150px) {
+
+  .destaques ul {
+    gap: 25px;
+  }
+
+  .destaques ul li {
+    width: 420px;
+  }
+
+  .destaques ul li h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 1050px) {
+
+  .destaques ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    margin-top: 80px;
+  }
+
+  .destaques ul li {
+    width: 100%;
+    max-width: 550px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .destaques ul {
+    margin-top: 60px;
+    gap: 60px;
+  }
+
+  .destaques ul li {
+    width: 100%;
+    height: auto;
+    padding: 25px 20px;
+  }
+
+  .destaques ul li div {
+    width: 60px;
+    height: 60px;
+  }
+
+  .destaques ul li div img {
+    width: 28px;
+  }
+
+  .destaques ul li h2 {
+    font-size: 1.15rem;
+    margin-top: 15px;
+  }
+}

@@ -36,3 +36,66 @@
   transition: .2s;
   background: var(--cor-amarelo);
 }
+
+/* =========================
+   RESPONSIVIDADE
+========================= */
+
+@media (max-width: 1150px) {
+
+  .sobre h1 {
+    font-size: 2.5rem;
+  }
+
+  .sobre p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 1050px) {
+
+  .sobre {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .sobre h1 {
+    margin-top: 0;
+  }
+
+  .sobre > div:last-child {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sobre > div:last-child img {
+    width: 500px;
+    max-width: 100%;
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .sobre {
+    margin-top: 70px;
+    gap: 30px;
+  }
+
+  .sobre h1 {
+    font-size: 2rem;
+  }
+
+  .sobre p {
+    font-size: 1rem;
+  }
+
+  .sobre .ajudar {
+    font-size: 1rem;
+  }
+
+  .sobre > div:last-child img {
+    width: 380px;
+    max-width: 100%;
+  }
+}

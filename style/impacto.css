@@ -4,7 +4,7 @@
   margin-top: 100px;
 }
 
-.impacto  ul{
+.impacto ul {
   display: flex;
   justify-content: space-between;
   gap: 50px;
@@ -19,4 +19,53 @@
   color: white;
   font-size: 2rem;
   font-weight: bold;
+}
+
+/* =========================
+   RESPONSIVIDADE
+========================= */
+
+@media (max-width: 1150px) {
+
+  .impacto ul {
+    gap: 30px;
+  }
+
+  .impacto ul h2 {
+    font-size: 3.2rem;
+  }
+
+  .impacto ul p {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 1050px) {
+
+  .impacto ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .impacto-fundo {
+    margin-top: 70px;
+    padding: 70px 0;
+  }
+
+  .impacto ul {
+    gap: 30px;
+  }
+
+  .impacto ul h2 {
+    font-size: 2.5rem;
+  }
+
+  .impacto ul p {
+    font-size: 1.25rem;
+  }
 }

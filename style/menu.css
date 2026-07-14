@@ -7,17 +7,22 @@
   background: transparent;
 }
 
-.menu-sobreposicao {
+/* .menu-sobreposicao {
+} */
+
+.menu-nav {
+  padding: 20px 50px;
   background-color: white;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   border-radius: 0px 0px 50px 50px;
-}
-
-.menu-nav {
-  padding: 20px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.menu-nav img {
+  width: 140px;
+  height: auto;
 }
 
 .menu-list {
